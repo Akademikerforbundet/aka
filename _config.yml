@@ -13,7 +13,14 @@ exclude:
   - node_modules/
   - vendor/
 
-logo: "https://www.akademikerforbundet.no/grf/logo-rod.svg"
+defaults:
+  - scope:
+      path: "docs" 
+      type: "pages"
+    values:
+      layout: "default"
+
+logo: https://www.akademikerforbundet.no/grf/logo-rod.svg
 
 search_enabled: true
 search:
