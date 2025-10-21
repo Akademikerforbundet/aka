@@ -55,11 +55,6 @@ back_to_top_text: "Til toppen"
 
 footer_content: 'Copyright &copy; 2025 <a href="https://akademikerforbundet.no">Akademikerforbundet</a>'
 
-plugins:
-  - jekyll-seo-tag
-  - jekyll-github-metadata
-  - jekyll-include-cache
-  - jekyll-sitemap
 
 # Only keep this if you actually add the compress plugin; otherwise omit
 # compress_html:
